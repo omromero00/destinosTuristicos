@@ -1,0 +1,18 @@
+# created by virtualenv automatically
+
+*.egg-info
+*.pot
+*.py[co]
+.tox/
+_pycache_
+MANIFEST
+dist/
+docs/_build/
+docs/locale/
+node_modules/
+tests/coverage_html/
+tests/.coverage
+build/
+tests/report/
+Scripts/
+Lib/
