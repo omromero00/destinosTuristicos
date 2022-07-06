@@ -281,18 +281,19 @@
 
 	
 							<!-- Destination -->
+
 							<div class="destination item">
 								<div class="destination_image">
 									<img src="{% static 'images/destination_4.jpg' %}" alt="image">
 									<div class="spec_offer text-center"><a href="#">Special Offer</a></div>
 								</div>
 								<div class="destination_content">
-									<div class="destination_title"><a href="destinations.html">Mumbai</a>
+									<div class="destination_title"><a href="destinations.html">{{dest1.name}}</a>
 									</div>
 									<div class="destination_subtitle">
 										<p>The city never sleeps </p>
 									</div>
-									<div class="destination_price">From $1000</div>
+									<div class="destination_price">From ${{dest1.price}}</div>
 								</div>
 							</div>
 
